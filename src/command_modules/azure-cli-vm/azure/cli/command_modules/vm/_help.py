@@ -203,7 +203,7 @@ helps['vm availability-set convert'] = """
     type: command
     short-summary: Convert an Azure Availability Set to contain VMs with managed disks.
     examples:
-        - name: Convert an availabiity set to use managed disks by name.
+        - name: Convert an availability set to use managed disks by name.
           text: vm availability-set convert -g MyResourceGroup -n MyAvSet
         - name: Convert an availability set to use managed disks by ID.
           text: >
